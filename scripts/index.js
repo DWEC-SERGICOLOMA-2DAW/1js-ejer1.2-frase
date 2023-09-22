@@ -11,5 +11,9 @@ if(cadena == null || !cadena.trim()){
     console.log(titleString(cadena))
     console.log(backwardsLetters(cadena))
     console.log(backwardsWords(cadena))
-    console.log((palindrome(cadena)?'Si':'No')+' es palíndromo')
+    if (palindrome(cadena)) {
+        console.log('Sí es un palíndromo');
+    } else {
+        console.log('No es un palíndromo');
+    }
 }

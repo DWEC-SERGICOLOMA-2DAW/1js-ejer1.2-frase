@@ -29,7 +29,7 @@ function backwardsWords(cadena) {
 
 function palindrome(cadena) {
 	cadena = cadena.toLowerCase().replace(/ /g, '')
-	return cadena === cadena.split('').reverse().join('')
+	return cadena === cadena.split('').reverse().join('');
 }
 
 module.exports = {
